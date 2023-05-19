@@ -1,6 +1,10 @@
+// Separate module to handle how player interacts with with game
+
+
+// Requirements:
 const { MOVE_UP_KEY, MOVE_DOWN_KEY, MOVE_LEFT_KEY, MOVE_RIGHT_KEY, MESSAGE } = require("./constants");
 
-
+// Function handles what happens with specifc data from stdin
 const handleUserInput = function(key) {
   if (key === "\u0003") {
     process.exit();
@@ -27,8 +31,10 @@ const handleUserInput = function(key) {
   }
 };
 
+// Stores the active TCP connectin object
 let connection;
 
+// Function to handle user input from stdin
 const setupInput = (conn) => {
   connection = conn;
   const stdin = process.stdin;
@@ -39,4 +45,6 @@ const setupInput = (conn) => {
   return stdin;
 };
 
+
+// Exports:
 module.exports = { setupInput };
