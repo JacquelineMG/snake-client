@@ -8,7 +8,7 @@ Before you can run this client, you will need to be running the server side whic
 
 ## Final Product
 
-!["Snake heading for food"](../.gitimages/screenshot.jpg)
+!["Snake heading for food"](https://github.com/JacquelineMG/snake-client/blob/master/.gitimages/screenshot.jpg)
 
 
 ## Getting Started
