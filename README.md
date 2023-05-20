@@ -18,8 +18,8 @@ Before you can run this client, you will need to be running the server side whic
 
 ## How To Play
 
-- Use the W A S D keys to move your snake to the dot of food.
+- Use the w a s d keys to move your snake to the dot of food.
 - Your snake grows as it eats making it an increasing obstacle to smooth manoeuvering.
 - Don't bump your snake into the walls or itself.
-- Use the J I K L keys to send built-in pop-up messages as you play.
+- Use the j i k l keys to send built-in pop-up messages as you play.
 - CTRL + C lets you quit the game.
